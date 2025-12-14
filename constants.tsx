@@ -25,7 +25,7 @@ export const COMPANY_CONTACT = {
   email: "triputrakhatulistiwa@gmail.com",
   npwp: "931014905707000",
   akta: "14/04 Maret 2023",
-  director: "Syahrul Raniandi",
+  director: "EGI ZULFANI, S.H., CPM.",
 };
 
 export const WHATSAPP_URL =
