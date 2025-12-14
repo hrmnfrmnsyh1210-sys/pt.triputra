@@ -25,7 +25,7 @@ export const COMPANY_CONTACT = {
   email: "triputrakhatulistiwa@gmail.com",
   npwp: "931014905707000",
   akta: "14/04 Maret 2023",
-  director: "EGI ZULFANI, S.H., CPM. ",
+  director: "Syahrul Raniandi",
 };
 
 export const WHATSAPP_URL =
@@ -37,36 +37,42 @@ export const SERVICES: ServiceItem[] = [
     description:
       "Layanan pengangkutan barang menggunakan armada truk yang handal untuk menjangkau seluruh wilayah Kalimantan Barat, termasuk daerah pedalaman.",
     icon: <Truck className="w-8 h-8 text-primary-600" />,
+    image: "/images/services/trucking.jpg",
   },
   {
     title: "Jasa Logistik & Distribusi",
     description:
       "Manajemen distribusi barang dari gudang hingga ke tangan konsumen (Last Mile Delivery) dengan sistem pelacakan real-time.",
     icon: <Package className="w-8 h-8 text-primary-600" />,
+    image: "/images/services/distribution.jpg",
   },
   {
     title: "Freight Forwarding",
     description:
       "Pengurusan pengiriman kargo skala besar, baik antar kota maupun lintas pulau, dengan penanganan dokumen yang lengkap.",
     icon: <Anchor className="w-8 h-8 text-primary-600" />,
+    image: "/images/services/freight.jpg",
   },
   {
     title: "Logistik Proyek & Alat Berat",
     description:
       "Spesialisasi pengiriman material konstruksi dan alat berat untuk proyek pembangunan, pertanian, dan pertambangan.",
     icon: <Building2 className="w-8 h-8 text-primary-600" />,
+    image: "/images/services/project.jpg",
   },
   {
     title: "Pengiriman Pelosok (Inland & River)",
     description:
       "Mengoptimalkan rute kombinasi darat dan sungai (Sungai Kapuas & Melawi) untuk menjangkau wilayah terisolir.",
     icon: <MapPin className="w-8 h-8 text-primary-600" />,
+    image: "/images/services/remote.jpg",
   },
   {
     title: "Kemitraan B2B & Pemerintah",
     description:
       "Kerja sama strategis dengan instansi pemerintah dan perusahaan swasta untuk kebutuhan distribusi rutin.",
     icon: <Briefcase className="w-8 h-8 text-primary-600" />,
+    image: "/images/services/partnership.jpg",
   },
 ];
 
